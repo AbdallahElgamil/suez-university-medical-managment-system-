@@ -30,17 +30,27 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.patient_historyBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.DataSet1 = new medicalManagment.DataSet1();
             this.Pnlheader = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.DataSet1 = new Clinic.DataSet1();
-            this.patient_historyBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.Pnlheader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patient_historyBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataSet1)).BeginInit();
+            this.Pnlheader.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // patient_historyBindingSource
+            // 
+            this.patient_historyBindingSource.DataMember = "patient_history";
+            this.patient_historyBindingSource.DataSource = this.DataSet1;
+            // 
+            // DataSet1
+            // 
+            this.DataSet1.DataSetName = "DataSet1";
+            this.DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // Pnlheader
             // 
@@ -104,22 +114,12 @@
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.patient_historyBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "dentist.report_rocheta.rdlc";
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "medicalManagment.report_rocheta.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 39);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.Size = new System.Drawing.Size(901, 644);
             this.reportViewer1.TabIndex = 6;
             this.reportViewer1.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.PageWidth;
-            // 
-            // DataSet1
-            // 
-            this.DataSet1.DataSetName = "DataSet1";
-            this.DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // patient_historyBindingSource
-            // 
-            this.patient_historyBindingSource.DataMember = "patient_history";
-            this.patient_historyBindingSource.DataSource = this.DataSet1;
             // 
             // frmRosheta
             // 
@@ -133,9 +133,9 @@
             this.Name = "frmRosheta";
             this.Text = "frmRosheta";
             this.Load += new System.EventHandler(this.frmRosheta_Load);
-            this.Pnlheader.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.DataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.patient_historyBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataSet1)).EndInit();
+            this.Pnlheader.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -147,7 +147,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.BindingSource patient_historyBindingSource;
-        private DataSet1 DataSet1;
+        private medicalManagment.DataSet1 DataSet1;
         public Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }

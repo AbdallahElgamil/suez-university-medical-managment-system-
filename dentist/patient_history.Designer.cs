@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(patient_history));
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(patient_history));
+            this.patient_historyBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.report_patient_history = new Microsoft.Reporting.WinForms.ReportViewer();
             this.button1 = new System.Windows.Forms.Button();
             this.Pnlheader = new System.Windows.Forms.Panel();
@@ -48,18 +49,17 @@
             this.checkdoctor = new System.Windows.Forms.CheckBox();
             this.checkBoxexaminationType = new System.Windows.Forms.CheckBox();
             this.checkBoxpatient = new System.Windows.Forms.CheckBox();
-            this.patient_historyBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.Pnlheader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.patient_historyBindingSource)).BeginInit();
+            this.Pnlheader.SuspendLayout();
             this.SuspendLayout();
             // 
             // report_patient_history
             // 
-            resources.ApplyResources(this.report_patient_history, "report_patient_history");
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.patient_historyBindingSource;
             this.report_patient_history.LocalReport.DataSources.Add(reportDataSource1);
-            this.report_patient_history.LocalReport.ReportEmbeddedResource = "dentist.report_patient_History.rdlc";
+            this.report_patient_history.LocalReport.ReportEmbeddedResource = "medicalManagment.report_patient_History.rdlc";
+            resources.ApplyResources(this.report_patient_history, "report_patient_history");
             this.report_patient_history.Name = "report_patient_history";
             this.report_patient_history.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.PageWidth;
             // 
@@ -72,11 +72,11 @@
             // 
             // Pnlheader
             // 
-            resources.ApplyResources(this.Pnlheader, "Pnlheader");
             this.Pnlheader.BackColor = System.Drawing.Color.DodgerBlue;
             this.Pnlheader.Controls.Add(this.button2);
             this.Pnlheader.Controls.Add(this.button3);
             this.Pnlheader.Controls.Add(this.button4);
+            resources.ApplyResources(this.Pnlheader, "Pnlheader");
             this.Pnlheader.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Pnlheader.Name = "Pnlheader";
             this.Pnlheader.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Pnlheader_MouseDown);
@@ -85,17 +85,17 @@
             // 
             // button2
             // 
-            resources.ApplyResources(this.button2, "button2");
             this.button2.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
-            resources.ApplyResources(this.button3, "button3");
             this.button3.BackColor = System.Drawing.Color.DodgerBlue;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.button3.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button3, "button3");
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = false;
@@ -103,32 +103,32 @@
             // 
             // button4
             // 
-            resources.ApplyResources(this.button4, "button4");
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.button4.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // combspecialization
             // 
-            resources.ApplyResources(this.combspecialization, "combspecialization");
             this.combspecialization.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.combspecialization, "combspecialization");
             this.combspecialization.FormattingEnabled = true;
             this.combspecialization.Name = "combspecialization";
             this.combspecialization.SelectedIndexChanged += new System.EventHandler(this.combspecialization_SelectedIndexChanged);
             // 
             // combdoctor
             // 
-            resources.ApplyResources(this.combdoctor, "combdoctor");
             this.combdoctor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.combdoctor, "combdoctor");
             this.combdoctor.FormattingEnabled = true;
             this.combdoctor.Name = "combdoctor";
             // 
             // combpatient
             // 
-            resources.ApplyResources(this.combpatient, "combpatient");
             this.combpatient.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.combpatient.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.combpatient, "combpatient");
             this.combpatient.FormattingEnabled = true;
             this.combpatient.Name = "combpatient";
             // 
@@ -189,9 +189,9 @@
             // 
             // patient_history
             // 
-            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.label4);
             this.Controls.Add(this.checkBoxactive);
             this.Controls.Add(this.checkdoctor);
@@ -210,8 +210,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "patient_history";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.Pnlheader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.patient_historyBindingSource)).EndInit();
+            this.Pnlheader.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

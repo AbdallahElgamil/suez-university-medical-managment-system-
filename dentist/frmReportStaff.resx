@@ -125,9 +125,6 @@
   <data name="cprofessioon.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
   </data>
-  <data name="&gt;&gt;reportStaff.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <data name="&gt;&gt;cprofessioon.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -140,14 +137,14 @@
   <data name="&gt;&gt;checkBoxactive.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>Pnlheader</value>
   </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
     <value>725, 70</value>
+  </data>
+  <data name="&gt;&gt;reportStaff.Type" xml:space="preserve">
+    <value>Microsoft.Reporting.WinForms.ReportViewer, Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 39</value>
@@ -165,8 +162,8 @@
   <data name="label17.Text" xml:space="preserve">
     <value>الوظيفه</value>
   </data>
-  <data name="&gt;&gt;cprofessioon.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;staffBindingSource.Name" xml:space="preserve">
     <value>staffBindingSource</value>
@@ -177,17 +174,14 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmReportStaff</value>
   </data>
-  <data name="checkBoxspecilization.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
-  <data name="cprofessioon.TabIndex" type="System.Int32, mscorlib">
-    <value>116</value>
-  </data>
   <data name="&gt;&gt;cspecilization.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;checkBoxactive.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -204,14 +198,14 @@
   <data name="label17.TabIndex" type="System.Int32, mscorlib">
     <value>118</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>901, 684</value>
-  </data>
-  <data name="&gt;&gt;btnload.Name" xml:space="preserve">
-    <value>btnload</value>
+  <data name="&gt;&gt;checkBoxspecilization.Name" xml:space="preserve">
+    <value>checkBoxspecilization</value>
   </data>
   <data name="&gt;&gt;checkBoxspecilization.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 71</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>Pnlheader</value>
@@ -222,8 +216,8 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="cspecilization.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -234,11 +228,17 @@
   <data name="cspecilization.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
   <data name="&gt;&gt;btnload.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="&gt;&gt;checkBoxprofession.Parent" xml:space="preserve">
     <value>$this</value>
@@ -252,8 +252,8 @@
   <data name="&gt;&gt;reportStaff.Name" xml:space="preserve">
     <value>reportStaff</value>
   </data>
-  <data name="cprofessioon.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="&gt;&gt;staffBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnload.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 27</value>
@@ -291,23 +291,29 @@
   <data name="&gt;&gt;button3.Parent" xml:space="preserve">
     <value>Pnlheader</value>
   </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
   <data name="button3.Text" xml:space="preserve">
     <value>x</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;staffBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="cspecilization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 71</value>
   </data>
   <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 12pt</value>
   </data>
+  <data name="Pnlheader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnload.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -324,20 +330,23 @@
   <data name="label4.Text" xml:space="preserve">
     <value>نشط</value>
   </data>
-  <data name="cprofessioon.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+  <data name="&gt;&gt;cprofessioon.Name" xml:space="preserve">
+    <value>cprofessioon</value>
   </data>
   <data name="reportStaff.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 98</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;cprofessioon.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBoxspecilization.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label17.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="cprofessioon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 71</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
@@ -351,11 +360,8 @@
   <data name="checkBoxactive.Location" type="System.Drawing.Point, System.Drawing">
     <value>815, 75</value>
   </data>
-  <data name="checkBoxspecilization.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 14</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 12pt</value>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBoxactive.Parent" xml:space="preserve">
     <value>$this</value>
@@ -378,11 +384,11 @@
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
-  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+  <data name="checkBoxspecilization.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 39</value>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkBoxprofession.Size" type="System.Drawing.Size, System.Drawing">
     <value>15, 14</value>
@@ -396,20 +402,17 @@
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>_</value>
   </data>
   <data name="checkBoxspecilization.Location" type="System.Drawing.Point, System.Drawing">
     <value>451, 50</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>836, 70</value>
-  </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 43</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -420,8 +423,8 @@
   <data name="Pnlheader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;cprofessioon.Name" xml:space="preserve">
-    <value>cprofessioon</value>
+  <data name="cprofessioon.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="Pnlheader.Size" type="System.Drawing.Size, System.Drawing">
     <value>901, 43</value>
@@ -447,17 +450,17 @@
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="Pnlheader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="checkBoxspecilization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>x</value>
   </data>
-  <data name="Pnlheader.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>836, 70</value>
   </data>
-  <data name="btnload.TabIndex" type="System.Int32, mscorlib">
-    <value>122</value>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
   </data>
   <data name="&gt;&gt;checkBoxactive.Name" xml:space="preserve">
     <value>checkBoxactive</value>
@@ -465,8 +468,8 @@
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 19</value>
   </data>
-  <data name="checkBoxprofession.TabIndex" type="System.Int32, mscorlib">
-    <value>120</value>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1077, 0</value>
   </data>
   <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -480,17 +483,17 @@
   <data name="&gt;&gt;btnload.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkBoxprofession.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
   </data>
-  <data name="checkBoxspecilization.TabIndex" type="System.Int32, mscorlib">
-    <value>121</value>
+  <data name="&gt;&gt;cprofessioon.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="cspecilization.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
@@ -498,41 +501,38 @@
   <data name="&gt;&gt;cspecilization.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="cspecilization.Location" type="System.Drawing.Point, System.Drawing">
-    <value>396, 71</value>
-  </data>
   <data name="&gt;&gt;btnload.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cprofessioon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 71</value>
+  <data name="&gt;&gt;btnload.Name" xml:space="preserve">
+    <value>btnload</value>
   </data>
-  <data name="&gt;&gt;cprofessioon.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>901, 684</value>
   </data>
-  <data name="&gt;&gt;reportStaff.Type" xml:space="preserve">
-    <value>Microsoft.Reporting.WinForms.ReportViewer, Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 39</value>
   </data>
-  <data name="&gt;&gt;checkBoxspecilization.Name" xml:space="preserve">
-    <value>checkBoxspecilization</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 19</value>
+  <data name="&gt;&gt;reportStaff.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
+  <data name="Pnlheader.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cprofessioon.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>524, 71</value>
+  <data name="checkBoxspecilization.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1077, 0</value>
+  <data name="cprofessioon.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>التخصص</value>

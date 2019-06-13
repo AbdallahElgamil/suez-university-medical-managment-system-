@@ -1,4 +1,4 @@
-﻿namespace Clinic
+﻿namespace medicalManagment
 {
 
 

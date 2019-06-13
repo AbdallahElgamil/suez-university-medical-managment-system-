@@ -131,7 +131,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAARRlJREFUeF7tnQmYXVWV74M2fm1/fgJJ6oaESZ8KAg9RW6Xh0WIP0A4tAtJ20xHb
+        vQAADr0BR/uQrQAARRlJREFUeF7tnQmYXVWV74M2fm1/fgJJ6oaESZ8KAg9RW6Xh0WIP0A4tAtJ20xHb
         2UYR5Am0SvcDxG4aEBtx6A6k7k0RAkkgEiCQhIQkJGHKBIRAAoSMdW7N81yVZL/12/ec5OTWvvN07rl7
         ff6tUHXvOfvss/5rr7322mtPsFLlotQRJ8V2/vExMzqPmjrDmTzlvqZI5N7mKZNnt04Fk2bunlYIvOtw
         Ta7NPbgX9+TebiusWLFSSjlt/pZ3TWtonDTxnr3HT4k1vU/I+H4waWb8E3Wxph/UxZzZkVh8dV3U2SL/
@@ -1486,9 +1486,6 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1149, 572</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>

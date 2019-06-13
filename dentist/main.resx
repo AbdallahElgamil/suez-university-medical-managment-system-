@@ -118,11 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblusers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblusers.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblMian.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -140,12 +147,11 @@
   <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1125, 608</value>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 561</value>
   </data>
   <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
@@ -717,8 +723,8 @@
   <data name="lblSpecilization.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 14.25pt, style=Bold</value>
   </data>
-  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mainpanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,18.22222,Percent,81.77778" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  <data name="lblmedicines.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="mainpanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>921, 561</value>
@@ -803,9 +809,6 @@
   <data name="lblsettings.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="lblmedicines.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 56</value>
-  </data>
   <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -867,9 +870,6 @@
   <data name="&gt;&gt;lblmedicines.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Pnlheader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
   <data name="lblmedicines.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 336</value>
   </data>
@@ -885,9 +885,6 @@
   <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
     <value>Pnlheader</value>
   </data>
-  <data name="&gt;&gt;lblsettings.Name" xml:space="preserve">
-    <value>lblsettings</value>
-  </data>
   <data name="lblPatient.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
@@ -902,9 +899,6 @@
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblMian.Parent" xml:space="preserve">
     <value>tableLayoutPanel3</value>
@@ -977,8 +971,8 @@
   <data name="lblout.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;lblappointment.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="lblappointment.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -1022,9 +1016,6 @@
   <data name="lblPatient.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 479</value>
   </data>
@@ -1046,9 +1037,6 @@
   <data name="lblappointment.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="lblPatient.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <data name="Pnlheader.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
@@ -1069,9 +1057,6 @@
   </data>
   <data name="lblProfessio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
-  </data>
-  <data name="lblmedicines.Text" xml:space="preserve">
-    <value> الادويه</value>
   </data>
   <data name="&gt;&gt;lblsettings.Parent" xml:space="preserve">
     <value>tableLayoutPanel3</value>
@@ -1123,14 +1108,11 @@
   <data name="lblSpecilization.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="lblmedicines.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="Pnlheader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="&gt;&gt;mainpanel.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>367, 26</value>
   </data>
   <data name="lblProfessio.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1219,6 +1201,9 @@
   <data name="lblProfessio.Text" xml:space="preserve">
     <value> الوظائف</value>
   </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>Pnlheader</value>
+  </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 11.25pt, style=Bold</value>
   </data>
@@ -1234,8 +1219,8 @@
   <data name="lblappointment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="lblsettings.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;lblusers.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1289,8 +1274,8 @@
         PbB/X3ODSOoVlY8epnkoovLRwzUPQ1Q+erjmYYjKx8TExIwNicQ/sGY+ODrwTWIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="&gt;&gt;lblappointment.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -1349,11 +1334,11 @@ contact : 01006778718</value>
   <data name="&gt;&gt;lblSpecilization.Name" xml:space="preserve">
     <value>lblSpecilization</value>
   </data>
-  <data name="&gt;&gt;lblPatient.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="lblsettings.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="lblusers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="lblSpecilization.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
   </data>
   <data name="lblmedicines.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 14.25pt, style=Bold</value>
@@ -1361,8 +1346,8 @@ contact : 01006778718</value>
   <data name="lblProfessio.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="lblPatient.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 56</value>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mainpanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,18.22222,Percent,81.77778" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="&gt;&gt;lblStaff.Parent" xml:space="preserve">
     <value>tableLayoutPanel3</value>
@@ -1372,6 +1357,9 @@ contact : 01006778718</value>
   </data>
   <data name="&gt;&gt;lblusers.Name" xml:space="preserve">
     <value>lblusers</value>
+  </data>
+  <data name="lblusers.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>Pnlheader</value>
@@ -1443,11 +1431,8 @@ contact : 01006778718</value>
   <data name="&gt;&gt;lblappointment.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>Pnlheader</value>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1510,8 +1495,8 @@ contact : 01006778718</value>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>mainpanel</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblmedicines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 56</value>
   </data>
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1522,8 +1507,14 @@ contact : 01006778718</value>
   <data name="lblStaff.Text" xml:space="preserve">
     <value> فريق العمل </value>
   </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15.75pt, style=Bold</value>
+  </data>
   <data name="&gt;&gt;button3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -1644,8 +1635,11 @@ contact : 01006778718</value>
   <data name="&gt;&gt;lblout.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1125, 561</value>
+  <data name="lblProfessio.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblsettings.Name" xml:space="preserve">
+    <value>lblsettings</value>
   </data>
   <data name="lblappointment.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 56</value>
@@ -1748,6 +1742,9 @@ contact : 01006778718</value>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>tableLayoutPanel2</value>
   </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="lblusers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>12, 0, 0, 0</value>
   </data>
@@ -1790,8 +1787,11 @@ contact : 01006778718</value>
   <data name="lblSpecilization.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 280</value>
   </data>
-  <data name="lblusers.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 26</value>
+  </data>
+  <data name="&gt;&gt;lblPatient.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;lblsettings.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1814,8 +1814,8 @@ contact : 01006778718</value>
   <data name="lblsettings.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 15.75pt, style=Bold</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 608</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 37</value>
@@ -1849,6 +1849,9 @@ contact : 01006778718</value>
   </data>
   <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="lblPatient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 56</value>
   </data>
   <data name="lblSpecilization.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 56</value>
@@ -2172,9 +2175,6 @@ contact : 01006778718</value>
   <data name="lblProfessio.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 224</value>
   </data>
-  <data name="lblSpecilization.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>12, 0, 0, 0</value>
-  </data>
   <data name="label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2196,14 +2196,14 @@ contact : 01006778718</value>
   <data name="&gt;&gt;lblSpecilization.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblProfessio.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="lblPatient.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="lblusers.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="lblmedicines.Text" xml:space="preserve">
+    <value> الادويه</value>
   </data>
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2227,6 +2227,6 @@ contact : 01006778718</value>
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr-FR</value>
+    <value>en-US</value>
   </metadata>
 </root>

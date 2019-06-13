@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReportStaff));
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.staffBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.Pnlheader = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -45,9 +46,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.checkBoxactive = new System.Windows.Forms.CheckBox();
             this.btnload = new System.Windows.Forms.Button();
-            this.staffBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.Pnlheader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).BeginInit();
+            this.Pnlheader.SuspendLayout();
             this.SuspendLayout();
             // 
             // Pnlheader
@@ -95,7 +95,7 @@
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.staffBindingSource;
             this.reportStaff.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportStaff.LocalReport.ReportEmbeddedResource = "dentist.ReportStaff.rdlc";
+            this.reportStaff.LocalReport.ReportEmbeddedResource = "medicalManagment.ReportStaff.rdlc";
             this.reportStaff.Name = "reportStaff";
             this.reportStaff.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.PageWidth;
             // 
@@ -185,8 +185,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmReportStaff";
             this.Load += new System.EventHandler(this.frmReportStaff_Load);
-            this.Pnlheader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).EndInit();
+            this.Pnlheader.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

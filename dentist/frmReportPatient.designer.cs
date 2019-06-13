@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReportPatient));
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.patientBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.reportPatient = new Microsoft.Reporting.WinForms.ReportViewer();
             this.Pnlheader = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
@@ -51,18 +51,14 @@
             this.checkBoxgender = new System.Windows.Forms.CheckBox();
             this.checkBoxactive = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.patientBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.Pnlheader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource)).BeginInit();
+            this.Pnlheader.SuspendLayout();
             this.SuspendLayout();
             // 
             // reportPatient
             // 
             resources.ApplyResources(this.reportPatient, "reportPatient");
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.patientBindingSource;
-            this.reportPatient.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportPatient.LocalReport.ReportEmbeddedResource = "dentist.Report1.rdlc";
+            this.reportPatient.LocalReport.ReportEmbeddedResource = "medicalManagment.Report1.rdlc";
             this.reportPatient.Name = "reportPatient";
             this.reportPatient.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.PageWidth;
             // 
@@ -243,8 +239,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmReportPatient";
             this.Load += new System.EventHandler(this.frmReportPatient_Load);
-            this.Pnlheader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.patientBindingSource)).EndInit();
+            this.Pnlheader.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

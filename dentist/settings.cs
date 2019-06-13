@@ -33,6 +33,10 @@ namespace Clinic
             {
                 Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ar-EG");
             }
+            if (comboSearch.SelectedIndex == 2)
+            {
+                Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr-FR");
+            }
             //InitializeComponent();
             fr.Hide();
             var frmMain = new frmMain();
