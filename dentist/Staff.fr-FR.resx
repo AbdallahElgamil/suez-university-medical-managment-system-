@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="staffphone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 83</value>
+  </data>
+  <data name="staffphone.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="staffphone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 115</value>
+  </data>
+  <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 31</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Adresse:</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 46</value>
+  </data>
+  <data name="label12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 25</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Âge:</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 11</value>
+  </data>
+  <data name="label9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="staffaddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 119</value>
+  </data>
+  <data name="staffaddress.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="staffaddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="staffage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 50</value>
+  </data>
+  <data name="staffage.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="staffage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 79</value>
+  </data>
+  <data name="label15.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 25</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Numéro de téléphone:</value>
+  </data>
+  <data name="staffid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 166</value>
+  </data>
+  <data name="staffid.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="staffid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 162</value>
+  </data>
+  <data name="label17.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 26</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Numéro d'employé:</value>
+  </data>
+  <data name="staffemail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 15</value>
+  </data>
+  <data name="staffemail.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="staffemail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 11</value>
+  </data>
+  <data name="label16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Nom de l'employé:</value>
+  </data>
+  <data name="staffname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 15</value>
+  </data>
+  <data name="staffname.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="staffname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 46</value>
+  </data>
+  <data name="label13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 25</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Profession:</value>
+  </data>
+  <data name="staffprofession.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 49</value>
+  </data>
+  <data name="staffprofession.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="staffprofession.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="lblspecialization.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblspecialization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 79</value>
+  </data>
+  <data name="lblspecialization.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="lblspecialization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 25</value>
+  </data>
+  <data name="lblspecialization.Text" xml:space="preserve">
+    <value>Spécialisation:</value>
+  </data>
+  <data name="txtspecialization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 82</value>
+  </data>
+  <data name="txtspecialization.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtspecialization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 115</value>
+  </data>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 31</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="staffgender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 118</value>
+  </data>
+  <data name="staffgender.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="staffgender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="btndelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAXpJREFUSEuV1T0vBUEUxvHxWkk06NGgU9ISKtFRErSESvgIIkHDl0AlhF5U4vUL
+        0FERoZLwfzb33hzH2b13n+QXyezMyc6euSMVpA3j2MMJbnCJY6xjAKXSjHk84aeOcwyjbjpxhqhInm+s
+        ITcqeodocSO28S/aftk3jSzhT+YQTfwIxkTb/3Rj8o4eZFH3o0Ydoh06FXb8C5Pox3NlzNpFljH4h3pT
+        FVWaUC2uohOoZgp+7Qv0adNOZcBTMRVV9HcLtmg38po9gnRqBjxb3EZF7xGtEf0O0rUZiOhNbXQsi4rK
+        BtKVGfD8N1W0AzUoml+V/WCOzIDli3bAfvOi4jPILhT/QOfUN0rbVzFbfB9+rfQiu6X8Ax3+Pii+Ubb4
+        Cuw60Ump5QJ+gg7/NKJGHWAZ2pl/tohadPVFk8p6QAv+RJ2MJjfqDUMIozMbLapHl4/+2xRmAXm3WuQR
+        g2goXVD3XxEVk1voJVpROmrEKHRfb2IVs8jOaX5S+gXZIymYvYROjQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btndelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btndelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 101</value>
+  </data>
+  <data name="btndelete.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btndelete.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="btnedit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAPtJREFUSEvt1TFLQlEYh/EzRNDQ4BJOQYFuTqGE7ZoITorlJ/FbiB/CTWjSxTaX
+        JmnoAzgIbqIOakPU8148l6O8w/Hchob+8FvO5T4XLlyuYWe4TeAc6q7xnUAO6my4ibsAF1Bnw/LkKRaB
+        6jiYG16ii0YA6RzsONxCB6NAT4imhcf7sxBtRPsP/73wl3LmCg7n8XJ05goOv+INVaz3Z65E7/gZsges
+        4F6Lw1eQL+YGvuFPVCArQu6z1+KwO9+w2OERMjeuht9Rg09YuPF7SFwN2/mGxRZlyAr4gPxZ1J0SFhuU
+        kMEMfai7ROoEEpxgDnnQAL+2NHoYGmOyP6b5IQcdmafOAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnedit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnedit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 56</value>
+  </data>
+  <data name="btnedit.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btnedit.Text" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="btnadd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAQRJREFUSEvd1DFqAkEYxXGNjZWgdoJicoG0egVrr2DAJpVFKrGKwRsIaSwtzB2C
+        nQiClTeIWMfGQvN/rgOyjuMMbGMe/GB25uOxu6ym7j5plPGEgjZiyUFnis4fo6U7Kv3G4aSPeNrQmaJz
+        rd+PV46UYEpDisVZXoEZlJBi6cEan+IaPqLlRfES1sSLJygib6H9L5zPexeH+sfFCwwdPrFBUPEaWdxK
+        HSt4F0+14Yj5aT8ggxESKa5Cc1s0ofIOrAkp1p3+QrM7qPxqQooVlan0Zrn+BvfQ4A9sX4LRhR7fu/wN
+        M8w9vEI5Lx9oI8mo3JS+oBEtk0sLep3j41WC0Z1Smnr+A14tnpmUf9wOAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnadd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnadd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 10</value>
+  </data>
+  <data name="btnadd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btnadd.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="btnprivilege.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAUpJREFUSEul1L8rRWEcx/GTX5ObTKwGlElSJhajkvxaFP/BZTaTTUksrBZlwGYx
+        mIRkQPkDMDJIIrw/5bl9nfM9955z7qdedTv3eT7d833uOVGOdOITP44dFE4zvFL5xhQKZRFeafCGHuRK
+        L7TRK7SOkSv78IriNJI+ZMoAtMEr8qyjZnRg1/AK0jyhEVWzDW9zLSNw04A1eJuyWEYiTTiCXfiFTVyY
+        a9VofyIdsIf1jhkoS7AFac5QSQv2UMYCznGAfoQMwyuK+/eLV6CLHxiERjKHdoS0QmOJFwX67hmjqOQO
+        YcErHv8+T8DmCmFd3CESuYe3eBI209Bb7hYP0KM+jzHojhK5gVccDs6mBP0l9SC4ZTa7iJdqZt2oK23Q
+        bG3xKupOF05hi2eh90WhaE4bSHuD6YCGkDtb8AqtF+iOcuUElxmMI2Oi6BeYyN4cuPs1cwAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="btnprivilege.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnprivilege.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 151</value>
+  </data>
+  <data name="btnprivilege.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btnprivilege.Text" xml:space="preserve">
+    <value>Ajouter une entrée de données</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 3</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Numéro d'employé</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Nom d'employé</value>
+  </data>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>Profession</value>
+  </data>
+  <data name="Column9.HeaderText" xml:space="preserve">
+    <value>Spécialisation</value>
+  </data>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Numéro de téléphone:</value>
+  </data>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Âge</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="dgvpr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btnback.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAUdJREFUSEvN1cErBGEYx/HJIlvKUf4BKUkpB8pFcSQnR1e5kNqLs4OLqwMuTpST
+        m3IR5eSinNTehFwkpVD4/t6dt8bOs9bszqv91ad33mmefd55Z3Y3arV0obNyGC6DuMGRmwXKPF7whXOd
+        yDvt2IQaeLk36sUpkk1ybzSGW1Q3ybXREt5gNfGe8YAyLrCLVUyi7ltZxB6sD85Ci9jGAMwcwyps1Ac2
+        oBfqR9bwCauoGbqB1HbOQbduFTRjB6n04xpWgTzhBJe4wh2s65K0U+NIpRv7sIqs11vXj2ARWoSeT3Xd
+        AWpmBe9IFvzle9SHLSSfuX7CCqiZCdwjSyOfGbzC1w7h12iFapC1kbIA32hKJ+qlA+souVm2nEGNZt0s
+        YPQ3o0bTbhYw2no1GnWzwHlET+UwbA7jMXiW4zF4huMxeNri8T8SRd+9XLaB3nC2qQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="btnback.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnback.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btnback.Text" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="btnsearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAXpJREFUOE+l000rRFEcx/GhKE9hIZFXoIQdkTegeAlSrCwslJWFJRuUnVDWbIUV
+        IgtJKTaSPCZPRbFCfL9zZ2qamXuH8atPc86dmXPP/zzEsqQJE9jCCXYxiw78KSVYxBdusIRJzOEU31hF
+        DXKmFHt4RT8KkZ5u+KJz1PogKgt4QXO8F556XMLlKPBBtrhmltkX7+VOJyy/N97LEjfgFpbpOv4m21gJ
+        mpnZhBtghhKfuTIGJ5E1x3A3zT7Kg2ZkBvAZNDOzg/mgGTvAcNCMzCgeg2ZmPLSeMzOOd7TFe+HxPK4H
+        zcwkd81zVoEjvGEk0U9PIyw38lT4xms0oBLTuMIdZlAHU4ZDuO7FPgiL1+kMFwi7s87MwaxmDe2oQmi8
+        Tp4v/+CnR2MQboAVfMDl2IC/0T0ib5fXqQfL8Jy5Vu6mG+CaFaELyQHl9y3IO9V4QOqgT2hF3rFMZ5Y6
+        6DNc57xjmc4sddAp/CuW6cwczAvhzv87lum55XbFYj92r185c/EZ5gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnsearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsearch.Text" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 0</value>
+  </data>
+  <data name="txtsearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 4</value>
+  </data>
+  <data name="txtsearch.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtsearch.Text" xml:space="preserve">
+    <value>Numéro de téléphone 00</value>
+  </data>
+  <data name="lblmessege.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 9</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 30</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Le personnel</value>
+  </data>
+  <data name="mybutton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAlNJREFUWEftl0FLG0EYhvfW+ud6a6EnLYViLCK5SDZZsdJ6cRXNplpSK+gtF20i
+        SImCpZDgpR4k4kHwIIoHiTQipoeSfu47zobJOjETk4mr5oUHNrOT733cSByNJ5MX0TUS4cvBCaTsHyVG
+        V1BMxP5GKvgFZXtk8Jq7B0NU4hdUSVdQTCAFv2QKTMZDFPTAnnrRLlip/KdIcouGkjtVOQ+s4R721It2
+        QeTy7z96O7FJw0v7VTlcYw33bktHBJGT4iW9/rhBsdQhA9dYa5SOCSI7B0V6+SHLwLVKWhZ8Z06zIapZ
+        2zpkqAaz0cHrmk+zgs1GWTAcnuoJjThz/THnHG8QEb8ydODvg0O/FZ/tHR19zvUMI2Q5c6a9VE6tb1P6
+        124NGCJ+fbQTzPb3wSFiL5YhyfUMA9ap7E050GlBkMr+plAsXuJ6179rso3gPgQBnLheMATPjlcY3uvA
+        CRaPvjO814ET9PN4BF+NZWk8fSotaIVP7kzMlnUCZcFIMkdvJvNsoKzoLmBWn52n6HxO2gmUBZc3C2S6
+        kvhp8ZG0A8wyv+Zo+WdB2gmUBe+LrmCrPHxBe2HV/YPtsI26QY+9kKnpxzrXkwu6R7DqABwsdeF1vB9J
+        1PRjjevVe4IZcs9kVcG9o7O24wmiZ9L9xMT+hoIiOgVlfaBGMGTFS/UOrACDxPw5v2BrzZLeyPMJ12Fr
+        kr4bB1Yc+XHMxg3ZGzBIR2SCcDAnFssD1ozD9fg/TZbzGU8Sj9aPTkF/Fxzcp5cYHIw/43qNo1OQV7QW
+        DNIFr3ioMYwrSA2I/BRX+uoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="mybutton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+</root>

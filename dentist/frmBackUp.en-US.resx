@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnTakeBackup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        qqUGCS0n2VUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTakeBackup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTakeBackup.Text" xml:space="preserve">
+    <value>                  Take a backup copy</value>
+  </data>
+  <data name="btnRestoreBackup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnRestoreBackup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRestoreBackup.Text" xml:space="preserve">
+    <value>          Retrieve a backup</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+</root>
