@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 14</value>
+    <value>7, 12</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 20</value>
@@ -131,14 +131,29 @@
   <data name="label4.Text" xml:space="preserve">
     <value>Administration médicale</value>
   </data>
+  <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
   <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 1</value>
+  </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 1</value>
+  </data>
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 141</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 18</value>
@@ -167,7 +182,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAARRlJREFUeF7tnQmYXVWV74M2fm1/fgJJ6oaESZ8KAg9RW6Xh0WIP0A4tAtJ20xHb
+        vgAADr4B6kKxwAAARRlJREFUeF7tnQmYXVWV74M2fm1/fgJJ6oaESZ8KAg9RW6Xh0WIP0A4tAtJ20xHb
         2UYR5Am0SvcDxG4aEBtx6A6k7k0RAkkgEiCQhIQkJGHKBIRAAoSMdW7N81yVZL/12/ec5OTWvvN07rl7
         ff6tUHXvOfvss/5rr7322mtPsFLlotQRJ8V2/vExMzqPmjrDmTzlvqZI5N7mKZNnt04Fk2bunlYIvOtw
         Ta7NPbgX9+TebiusWLFSSjlt/pZ3TWtonDTxnr3HT4k1vU/I+H4waWb8E3Wxph/UxZzZkVh8dV3U2SL/
@@ -466,9 +481,6 @@
 </value>
   </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">

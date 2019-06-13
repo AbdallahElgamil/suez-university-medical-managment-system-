@@ -156,9 +156,6 @@
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>333, 308</value>
-  </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -348,7 +345,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAARRlJREFUeF7tnQmYXVWV74M2fm1/fgJJ6oaESZ8KAg9RW6Xh0WIP0A4tAtJ20xHb
+        vQAADr0BR/uQrQAARRlJREFUeF7tnQmYXVWV74M2fm1/fgJJ6oaESZ8KAg9RW6Xh0WIP0A4tAtJ20xHb
         2UYR5Am0SvcDxG4aEBtx6A6k7k0RAkkgEiCQhIQkJGHKBIRAAoSMdW7N81yVZL/12/ec5OTWvvN07rl7
         ff6tUHXvOfvss/5rr7322mtPsFLlotQRJ8V2/vExMzqPmjrDmTzlvqZI5N7mKZNnt04Fk2bunlYIvOtw
         Ta7NPbgX9+TebiusWLFSSjlt/pZ3TWtonDTxnr3HT4k1vU/I+H4waWb8E3Wxph/UxZzZkVh8dV3U2SL/
@@ -652,6 +649,9 @@
   <data name="&gt;&gt;lblmessege.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;txtname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="lblmessege.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 13</value>
   </data>
@@ -712,8 +712,8 @@
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txtpass.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -724,8 +724,8 @@
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 42</value>
   </data>
-  <data name="&gt;&gt;txtpass.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>333, 308</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 47</value>
@@ -749,6 +749,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr-FR</value>
+    <value>en-US</value>
   </metadata>
 </root>
